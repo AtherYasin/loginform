@@ -14,16 +14,28 @@ class MyApp extends StatelessWidget {
             backgroundColor: Color(0xff885566),
             centerTitle: true,
             title: Text(
-              'Login Form',
+              'login form',
             ),
           ),
           body: Center(
               child: Column(
             children: [
               Container(
+                  width: 300,
+                  child: Text(
+                    'Enter Username',
+                    style: TextStyle(height: 5, fontSize: 20),
+                  )),
+              Container(
                 width: 300,
                 child: TextField(),
               ),
+              Container(
+                  width: 300,
+                  child: Text(
+                    'Enter Password',
+                    style: TextStyle(height: 5, fontSize: 20),
+                  )),
               Container(
                 width: 300,
                 child: TextField(),
